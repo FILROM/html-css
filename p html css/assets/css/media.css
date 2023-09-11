@@ -1,0 +1,154 @@
+@media (max-with: 1230px) {
+  /* INTRO */
+  .intro__suptitle {
+    font-size: 52px;
+  }
+
+  .intro__title {
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /* INTRO */
+  .intro__suptitle {
+    font-size: 32px;
+  }
+
+  .intro__title {
+    font-size: 80px;
+  }
+
+  /* NAV */
+
+  .nav {
+    display: none;
+  }
+
+  /* STAT */
+  .stat {
+    justify-content: center;
+  }
+
+  .stat__item {
+    flex: none;
+    width: 33.3333%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    border: 0;
+  }
+
+  .stat__item:last-child {
+    border-right: 0;
+  }
+  .intro__inner {
+    min-width: 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+  .wedo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .wedo__item {
+    width: 100%;
+    padding: 0;
+  }
+  .wedo__img {
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 1.5rem;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__item,
+  .about__item img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-with: 770px) {
+  /* Intro */
+  .intro {
+    min-height: 650px;
+  }
+
+  /* NAV */
+  .nav {
+    display: none;
+  }
+
+  /* Header */
+
+  .header {
+    padding-top: 10px;
+  }
+
+  /*SECTION*/
+  .section {
+    padding: 40px 0;
+  }
+
+  /* SLIDER */
+  .slider__text {
+    display: none;
+  }
+
+  .slider__item.active:before {
+    width: 50%; /*szereokosc czerwonego paska na sliderze*/
+  }
+
+  /* WE DO*/
+}
+
+@media screen and (max-width: 575px) {
+  /* INTRO */
+  .intro__suptitle {
+    font-size: 22px;
+  }
+
+  .intro__title {
+    font-size: 40px;
+  }
+
+  /*SECTION*/
+
+  .section__header {
+    margin-bottom: 50px;
+  }
+
+  .section__suptitle {
+    font-size: 20px;
+  }
+
+  .section__title {
+    font-size: 24px;
+  }
+
+  .section__title:after {
+    margin: 20px auto;
+  }
+
+  /* Stat */
+
+  .stat__item {
+    width: 100%;
+
+    border-bottom: 1px solid #b5eae0;
+  }
+
+  .stat__item:last-child {
+    border-bottom: 0;
+  }
+
+  .stat__count {
+    font-size: 52px;
+  }
+}
